@@ -54,7 +54,7 @@ export default function App() {
             src="/fondos/fondo-perro.png"
             alt=""
             aria-hidden="true"
-            className="pointer-events-none absolute right-0 top-12 z-0 h-[99vh] w-auto max-w-none scale-110 translate-x-0 object-contain object-right origin-bottom-right"
+            className="pointer-events-none absolute right-0 top-12 z-0 hidden h-[99vh] w-auto max-w-none scale-110 translate-x-0 object-contain object-right origin-bottom-right md:block"
           />
           <LandingHero />
           <BrandMarquee />
